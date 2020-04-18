@@ -18,5 +18,6 @@ Interstellar 1902 2
 Parasite 1902 2
 AnotherEarth 2017 8
 Aftermath 2018 3
-BravoToCharlie 1998 7
-DeltaForce 1989 5
+BravoToCharlie 1998 9
+DeltaForce 1999 3
+HarryPotter 1999 10
