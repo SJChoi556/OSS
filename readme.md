@@ -1,9 +1,9 @@
 # AWESOME PROGRAM!!!
 ==================
 
-> ## I am hereby to introduce my awesome program.
-> ## If you like the program, please subscribe my YouTube Channel!
-> ## Always welcome to edit my code!
+> I am hereby to introduce my awesome program.
+> If you like the program, please subscribe my YouTube Channel!
+> Always welcome to edit my code!
 
 > # Basic Information
 > >Created by SJc
