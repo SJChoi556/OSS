@@ -17,8 +17,13 @@
  
  # 5. Additional Info
   Created by SJc 
+  
   Programing Language : C
+  
   Development Period : 2020-04-10 ~ 2020-04-20
+  
   Email : <SJc@xxx.com>
+  
   YouTube Channel : <https://xxx>
+  
   Instagram ID : SJc
