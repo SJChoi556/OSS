@@ -8,6 +8,7 @@ void create_file(Record[]); //add()
 void create_keyboard(Record[]); //import()
 void print_all_records(Record[]); //print_all()
 void read_search(Record[]);  //search()
+void advanced_search(Record[]); 
 void read_load(Record[]); //load()
 void read_save(Record[]); //save()
 void read_report(Record[]); //export()
