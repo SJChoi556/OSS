@@ -141,6 +141,39 @@ void read_search(Record records[]){
   }
 }
 
+void advanced_search(Record records[]) {
+  int tempYear = 0, tempRating = 0;
+  printf("\nPlease enter the production year and rating.\n");
+  printf("Input '0' if it doesn't matter.\n");
+  printf("Production Year: ");
+  scanf("%d", &tempYear);
+  printf("Rating: ");
+  scanf("%d", &tempRating);
+  while (getchar() != '\n');  //fflush 
+
+  if(tempYear == 0 && tempRating == 0){
+    print_all_records(records);
+  }
+  else if(tempYear != 0 && tempRating == 0){
+    printf("\n\n[NAME - YEAR - Rating]\n");
+    for(int i = 0; i < 1000; i++){
+      if(records[i].year == tempYear) printf("%s - %d - %d\n", records[i].name, records[i].year, records[i].rating);
+    }
+  }
+  else if(tempYear == 0 && tempRating != 0){
+    printf("\n\n[NAME - YEAR - Rating]\n");
+    for(int i = 0; i < 1000; i++){
+      if(records[i].rating == tempRating) printf("%s - %d - %d\n", records[i].name, records[i].year, records[i].rating);
+    }
+  }
+  else if(tempYear != 0 && tempRating != 0){
+    printf("\n\n[NAME - YEAR - Rating]\n");
+    for(int i = 0; i < 1000; i++){
+      if(records[i].year == tempYear && records[i].rating == tempRating) printf("%s - %d - %d\n", records[i].name, records[i].year, records[i].rating);
+    }
+  }
+}
+
 // Function: read_load()
 // Input: record
 // Output: none

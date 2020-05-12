@@ -67,6 +67,8 @@ void input_handler(char input[], Record records[]){
 		init(records);
 	else if(!strcmp(input, "16"))
 		printf("Terminating... bye!\n\n"); // Quit - no operation (an empty statement with a semi-colon)
+	else if(!strcmp(input, "99"))
+		advanced_search(records);
 	else
 		printf("Unknown menu: %s \n\n", input);
 }
@@ -77,5 +79,5 @@ void input_handler(char input[], Record records[]){
 // show menu
 void display_menu(){
 
-	printf("******************************\nMovie Rating Management System\n******************************\n1.Add a new movie\n2.Import a new movie record\n3.Print all movies\n4.Search Movies\n5.Load a new data file\n6.Save to a data file\n7.Export as a report\n8.Update movie details\n9.Delete a movie\n10.Delete multiple movies (conditional)\n11.Optimize (defrag) the records\n12.Sort\n13.Random selection\n14.Count\n15.Clear\n16.Exit\n");
+	printf("******************************\nMovie Rating Management System\n******************************\n1.Add a new movie\n2.Import a new movie record\n3.Print all movies\n4.Search Movies\n5.Load a new data file\n6.Save to a data file\n7.Export as a report\n8.Update movie details\n9.Delete a movie\n10.Delete multiple movies (conditional)\n11.Optimize (defrag) the records\n12.Sort\n13.Random selection\n14.Count\n15.Clear\n16.Exit\n99.Advanced Search (new)\n");
 }
